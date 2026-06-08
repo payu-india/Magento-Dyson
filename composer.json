@@ -1,0 +1,31 @@
+{
+  "name": "payuindia/payu",
+  "description": "PayU Payment Module for Magento 2.4.x",
+  "type": "magento2-module",
+  "version": "2.4.14",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "PayUIndia",
+      "email": "integration@payu.in",
+      "homepage": "https://payu.in/",
+      "role": "Technical Support"
+    }
+  ],
+  "keywords": [
+    "Magento 2",
+    "PayU India",
+    "Payment Gateway"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PayUIndia\\Payu\\": ""
+    }
+  }
+}
